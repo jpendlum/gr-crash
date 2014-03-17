@@ -1,0 +1,23 @@
+<block>
+  <name>CRASH USRP Sink</name>
+  <key>crash_usrp_sink</key>
+  <category>CRASH</category>
+  <import>import crash</import>
+  <make>crash.crash_usrp_sink($xfer_size,$interp_rate)</make>
+  <param>
+    <name>Interpolation Rate</name>
+    <key>interp_rate</key>
+    <value>8</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Transfer Size</name>
+    <key>xfer_size</key>
+    <value>4096</value>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+</block>

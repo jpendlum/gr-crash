@@ -1,0 +1,7 @@
+/*!
+ * \defgroup block GNU Radio CRASH C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the CRASH GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */
+
